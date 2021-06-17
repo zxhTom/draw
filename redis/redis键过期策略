@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T11:22:00.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="PYJNw2mnVxwjjooEMKnN" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T11:28:11.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="8a7OXgA21n2z0sTkLsJe" version="14.7.7" type="github">
   <diagram id="c-XJriGIzUE2uG1yV5Bx" name="Page-1">
     <mxGraphModel dx="2249" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,10 +8,10 @@
           <mxGeometry x="150" y="180" width="460" height="360" as="geometry" />
         </mxCell>
         <mxCell id="xUu2yqL-A44mOZ4l99Hv-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="240" width="30" height="30" as="geometry" />
+          <mxGeometry x="600" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xUu2yqL-A44mOZ4l99Hv-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="290" width="30" height="30" as="geometry" />
+          <mxGeometry x="600" y="50" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xUu2yqL-A44mOZ4l99Hv-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="210" y="220" width="30" height="30" as="geometry" />
@@ -177,6 +177,38 @@
         </mxCell>
         <mxCell id="xUu2yqL-A44mOZ4l99Hv-66" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="290" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-67" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="280" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-68" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="290" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-69" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-70" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="310" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-72" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xUu2yqL-A44mOZ4l99Hv-71" target="xUu2yqL-A44mOZ4l99Hv-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-71" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="xUu2yqL-A44mOZ4l99Hv-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-73" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="440" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-75" value="部分删除" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="420" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-76" value="每个10S随机找出20个带有过期事件的key;&lt;br&gt;遍历该20键过期的进行删除；如果最终删除的key超过1/4 ；&lt;br&gt;那么重复以上步骤，直至删除的key小于1/4；&lt;br&gt;但并不是一直循环操作，上面的循环操作的总体时间不能超过25ms;&lt;br&gt;因为不能因为时间长导致客户端连接超时" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="100" y="840" width="680" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
