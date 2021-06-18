@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T11:28:11.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="8a7OXgA21n2z0sTkLsJe" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-18T02:15:36.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="wBEn2RP4cF0uO9hO8aRY" version="14.7.7" type="github">
   <diagram id="c-XJriGIzUE2uG1yV5Bx" name="Page-1">
     <mxGraphModel dx="2249" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -208,7 +208,7 @@
           <mxGeometry x="420" y="730" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xUu2yqL-A44mOZ4l99Hv-76" value="每个10S随机找出20个带有过期事件的key;&lt;br&gt;遍历该20键过期的进行删除；如果最终删除的key超过1/4 ；&lt;br&gt;那么重复以上步骤，直至删除的key小于1/4；&lt;br&gt;但并不是一直循环操作，上面的循环操作的总体时间不能超过25ms;&lt;br&gt;因为不能因为时间长导致客户端连接超时" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
-          <mxGeometry x="100" y="840" width="680" height="190" as="geometry" />
+          <mxGeometry x="-320" y="585" width="680" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
