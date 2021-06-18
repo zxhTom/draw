@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-18T02:15:36.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="wBEn2RP4cF0uO9hO8aRY" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-18T02:29:41.251Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="cbXV1DiF6-26F18h5Lgk" version="14.7.7" type="github">
   <diagram id="c-XJriGIzUE2uG1yV5Bx" name="Page-1">
     <mxGraphModel dx="2249" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -209,6 +209,40 @@
         </mxCell>
         <mxCell id="xUu2yqL-A44mOZ4l99Hv-76" value="每个10S随机找出20个带有过期事件的key;&lt;br&gt;遍历该20键过期的进行删除；如果最终删除的key超过1/4 ；&lt;br&gt;那么重复以上步骤，直至删除的key小于1/4；&lt;br&gt;但并不是一直循环操作，上面的循环操作的总体时间不能超过25ms;&lt;br&gt;因为不能因为时间长导致客户端连接超时" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
           <mxGeometry x="-320" y="585" width="680" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="xUu2yqL-A44mOZ4l99Hv-77" target="xUu2yqL-A44mOZ4l99Hv-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="1170" />
+              <mxPoint x="200" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-83" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xUu2yqL-A44mOZ4l99Hv-82">
+          <mxGeometry x="-0.1059" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-85" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xUu2yqL-A44mOZ4l99Hv-77" target="xUu2yqL-A44mOZ4l99Hv-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-77" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;过期率&amp;gt;25%&lt;br&gt;总耗时&amp;lt;25ms&lt;br&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1130" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-81" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xUu2yqL-A44mOZ4l99Hv-78" target="xUu2yqL-A44mOZ4l99Hv-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-78" value="开始" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-80" value="过期率" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xUu2yqL-A44mOZ4l99Hv-79" target="xUu2yqL-A44mOZ4l99Hv-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-79" value="获取20个设置过期key" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xUu2yqL-A44mOZ4l99Hv-84" value="结束" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
