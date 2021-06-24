@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T03:30:22.974Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="dVyu0QuX8SQbHH9hvAag" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T03:35:44.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="jfN3ZRD08be5FAhQiIC7" version="14.8.0" type="github">
   <diagram id="Ud2-8x2A5rbbUwBaTgdM" name="Page-1">
     <mxGraphModel dx="2249" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -623,6 +623,30 @@
         </mxCell>
         <mxCell id="1LCDSKjHYoAvkZV8dADz-202" value="渐进式rehash" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="-170" y="3110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1LCDSKjHYoAvkZV8dADz-204" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-224" y="3860" width="1100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1LCDSKjHYoAvkZV8dADz-205" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1LCDSKjHYoAvkZV8dADz-204">
+          <mxGeometry width="1100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1LCDSKjHYoAvkZV8dADz-206" value="总结" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1LCDSKjHYoAvkZV8dADz-204">
+          <mxGeometry x="20" y="5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1LCDSKjHYoAvkZV8dADz-208" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-237" y="3980" width="1104" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1LCDSKjHYoAvkZV8dADz-209" value="&lt;span&gt;①、字典表被使用在哈希键还有数据库中&lt;/span&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-146" y="4000" width="864" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1LCDSKjHYoAvkZV8dADz-210" value="②、字典中有两个哈希表，一个被使用另外一个在rehash中临时使用；类似JVM垃圾回收&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-146" y="4050" width="864" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1LCDSKjHYoAvkZV8dADz-211" value="③、hash表通过next指针解决冲突问题；类似Java中Map的链表。Java中红黑树性能更佳&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-146" y="4110" width="864" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1LCDSKjHYoAvkZV8dADz-212" value="④、rehash是一个分治过程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-146" y="4160" width="864" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
