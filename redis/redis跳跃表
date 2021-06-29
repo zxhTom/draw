@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-29T10:41:50.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="zDiEv90DTxj3VDwD8OKM" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-29T10:50:08.833Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="FY8KVeEzzi8H15EIfI3J" version="14.8.0" type="github">
   <diagram id="ZHhM27cty1tWeUuJ0lQM" name="Page-1">
     <mxGraphModel dx="2249" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -426,6 +426,15 @@
         </mxCell>
         <mxCell id="7KUtJBOB6lQq4fx4tE5r-138" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;③、每一层都是一个链表&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="-149" y="1370" width="999" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7KUtJBOB6lQq4fx4tE5r-139" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;①、跳表的层级是一个随机性的，因为跳表的每一层都是类似于双向链表，我们可以通过任意一个节点路由到头部或者尾部&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="2480" width="999" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7KUtJBOB6lQq4fx4tE5r-140" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;②、节点层高在1~32之间，且节点层数通过【幂次定律】生成&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-119.5" y="2550" width="999" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7KUtJBOB6lQq4fx4tE5r-141" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;③、幂次定律：数字从小到大排列生成的概览逐渐变小；层越高出现的概览越小&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="2620" width="999" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
