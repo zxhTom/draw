@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T07:23:38.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.123 Safari/537.36" etag="TZ_n-iM4SP4rAi7px4GL" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T08:04:01.196Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.123 Safari/537.36" etag="b9imQEPKGOQDzjmsy6Yg" version="14.8.4" type="github">
   <diagram id="Oyx-NIxrDb38I8W-ITaF" name="Page-1">
     <mxGraphModel dx="2249" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,11 +195,20 @@
         <mxCell id="qJp0Z0cuMw95INe8QLQ4-97" value="zltail" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry y="2240" width="160" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="qJp0Z0cuMw95INe8QLQ4-114" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qJp0Z0cuMw95INe8QLQ4-98" target="qJp0Z0cuMw95INe8QLQ4-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qJp0Z0cuMw95INe8QLQ4-98" value="zllen" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry y="2290" width="160" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="qJp0Z0cuMw95INe8QLQ4-115" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qJp0Z0cuMw95INe8QLQ4-99" target="qJp0Z0cuMw95INe8QLQ4-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qJp0Z0cuMw95INe8QLQ4-99" value="entry" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry y="2340" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qJp0Z0cuMw95INe8QLQ4-116" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qJp0Z0cuMw95INe8QLQ4-100" target="qJp0Z0cuMw95INe8QLQ4-113">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qJp0Z0cuMw95INe8QLQ4-100" value="zlend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry y="2390" width="160" height="50" as="geometry" />
@@ -227,6 +236,12 @@
         </mxCell>
         <mxCell id="qJp0Z0cuMw95INe8QLQ4-111" value="&lt;b style=&quot;font-size: 16px&quot;&gt;记录链表中节点数量，当数量大于（2^16）-2需要遍历才能确定节点总数&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="319" y="2283" width="720" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="qJp0Z0cuMw95INe8QLQ4-112" value="&lt;b style=&quot;font-size: 16px&quot;&gt;链表中节点。节点的长度取决于长度&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="319" y="2345" width="720" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="qJp0Z0cuMw95INe8QLQ4-113" value="&lt;b style=&quot;font-size: 16px&quot;&gt;固定值0xFF,用于标记结束&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="319" y="2408" width="720" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
