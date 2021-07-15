@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-15T09:21:37.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.123 Safari/537.36" etag="Y3B-JmUyz9mAd2pmDB_t" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T09:34:38.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.123 Safari/537.36" etag="ofSWabcbHBCqoWDl9GBV" version="14.8.6" type="github">
   <diagram id="Oyx-NIxrDb38I8W-ITaF" name="Page-1">
     <mxGraphModel dx="3076" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -550,6 +550,38 @@
         </mxCell>
         <mxCell id="qJp0Z0cuMw95INe8QLQ4-223" value="&lt;b style=&quot;font-size: 15px&quot;&gt;当前四个元素全部长度都是250字节，则当前所有节点中头部标记前一个节点只需要1个字节存储&lt;br&gt;此时我们新增一个260字节的到表头，因为260&amp;gt;=254,所以后面一个节点就需要进行扩充至5字节&lt;br&gt;本身250字节变成了254字节，从而引起后面的节点全部都需要变化&lt;br&gt;这就是连锁更新&lt;/b&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#F6F6F6;" parent="1" vertex="1">
           <mxGeometry x="-159.64999999999998" y="4900" width="720" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="C9s9NSlDTSHSMv5adtP0-1" value="00000000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30.35" y="2482.5" width="79.65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C9s9NSlDTSHSMv5adtP0-3" value="00001000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="110.35" y="2482.5" width="79.65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C9s9NSlDTSHSMv5adtP0-4" value="a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2482.5" width="79.65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C9s9NSlDTSHSMv5adtP0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.42;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C9s9NSlDTSHSMv5adtP0-5" target="qJp0Z0cuMw95INe8QLQ4-120">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C9s9NSlDTSHSMv5adtP0-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="2447.5" width="20" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="C9s9NSlDTSHSMv5adtP0-6" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="2570" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C9s9NSlDTSHSMv5adtP0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C9s9NSlDTSHSMv5adtP0-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="2512.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C9s9NSlDTSHSMv5adtP0-8" value="00000011" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="310.35" y="2482.5" width="79.65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C9s9NSlDTSHSMv5adtP0-9" value="00001000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="390.35" y="2482.5" width="79.65" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C9s9NSlDTSHSMv5adtP0-10" value="a" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2482.5" width="79.65" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
