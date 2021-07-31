@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-31T13:19:55.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="8ikIFbbNipMdDu3Ebxur" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-31T13:45:53.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="SnNeUoydGgri8RISBSMO" version="14.9.3" type="github">
   <diagram id="1jmUKovfuuAsXtIEpOLr" name="索引结构">
     <mxGraphModel dx="1848" dy="528" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1013,6 +1013,18 @@
             <mxPoint x="356" y="5334" as="sourcePoint" />
             <mxPoint x="378" y="5334" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3T7w2ROA5HUskxFpoRaZ-383" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="15" y="5452" width="830" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3T7w2ROA5HUskxFpoRaZ-384" value="&lt;font color=&quot;#ffffff&quot;&gt;B*Tree&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="35" y="5457" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3T7w2ROA5HUskxFpoRaZ-385" value="&lt;font style=&quot;font-size: 22px&quot;&gt;在B+Tree的基础上，在非根非叶子结点中添加兄弟指针指向&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#F5F5F5;" vertex="1" parent="1">
+          <mxGeometry x="10" y="5570" width="824" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="3T7w2ROA5HUskxFpoRaZ-386" value="B*Tree" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="373" y="5578" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
