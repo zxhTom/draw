@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-31T13:08:24.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="9ib44a9-DSOPhYROe8PL" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-31T13:10:45.682Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="pWmFGasQgzQ4mUS8TWJb" version="14.9.3" type="github">
   <diagram id="1jmUKovfuuAsXtIEpOLr" name="索引结构">
     <mxGraphModel dx="1848" dy="528" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -505,10 +505,10 @@
         <mxCell id="3T7w2ROA5HUskxFpoRaZ-185" value="BTree" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="408.5" y="3307" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3T7w2ROA5HUskxFpoRaZ-186" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;BTree的设计主要是针对磁盘获取其他存储的一种平衡树(不一定是二叉这里往往指的是多叉)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;前面提到的二叉树、红黑树、平衡二叉树都是针对单个数据的一种数据结构。而BTree、B+Tree、B*Tree都是针对数据存储的一种数据结构。在BTree家族中他们主要的职能是索引。他们相对应的是磁盘中的数据。mysql中数据就是BTree家族数据结构&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;BTree需要满足如下4个特点：&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3T7w2ROA5HUskxFpoRaZ-186" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;BTree的设计主要是针对磁盘获取其他存储的一种平衡树(不一定是二叉这里往往指的是多叉)&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;前面提到的二叉树、红黑树、平衡二叉树都是针对单个数据的一种数据结构。而BTree、B+Tree、B*Tree都是针对数据存储的一种数据结构。在BTree家族中他们主要的职能是索引。他们相对应的是磁盘中的数据。mysql中数据就是BTree家族数据结构&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;BTree需要满足如下5个特点：&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="41" y="3354" width="821" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="3T7w2ROA5HUskxFpoRaZ-187" value="&lt;font style=&quot;font-size: 15px&quot;&gt;①、至少是2阶，即至少有两个子节点&lt;br&gt;②、对于m阶BTree来说，非根节点所包含的关键词个数j需要满足&amp;nbsp; &amp;nbsp; (m/2)-1&amp;lt;=j&amp;lt;=m-1&lt;br&gt;③、除叶子结点外，节点内关键词个数+1总是等于指针个数&lt;br&gt;④、所有叶子结点都在同一层&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3T7w2ROA5HUskxFpoRaZ-187" value="&lt;font style=&quot;font-size: 15px&quot;&gt;①、至少是2阶，即至少有两个子节点&lt;br&gt;②、对于m阶BTree来说，非根节点所包含的关键词个数j需要满足&amp;nbsp; &amp;nbsp; (m/2)-1&amp;lt;=j&amp;lt;=m-1&lt;br&gt;③、除叶子结点外，节点内关键词个数+1总是等于指针个数&lt;br&gt;④、所有叶子结点都在同一层&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;⑤、每个关键字保存实际磁盘数据&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="123" y="3465" width="673" height="154" as="geometry" />
         </mxCell>
         <mxCell id="3T7w2ROA5HUskxFpoRaZ-191" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
