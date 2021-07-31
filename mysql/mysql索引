@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-31T09:35:30.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="lUdw19gMpbDI5Gmn5GlX" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-31T09:49:03.634Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="DBIhZjXbjSD9ptyKm9Vf" version="14.9.3" type="github">
   <diagram id="1jmUKovfuuAsXtIEpOLr" name="索引结构">
-    <mxGraphModel dx="868" dy="416" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="449" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -267,6 +267,21 @@
         </mxCell>
         <mxCell id="3T7w2ROA5HUskxFpoRaZ-82" value="&lt;font color=&quot;#ffffff&quot;&gt;红黑树&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="70" y="2279" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3T7w2ROA5HUskxFpoRaZ-83" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2354" width="825" height="319" as="geometry" />
+        </mxCell>
+        <mxCell id="3T7w2ROA5HUskxFpoRaZ-84" value="红黑树" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2365" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3T7w2ROA5HUskxFpoRaZ-85" value="&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;R-B Tree 翻译过来就是红黑树的意思。&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;红黑树首先就是一个平衡二叉树(平衡度并不一定小于1，只是近似平衡树)。唯一不同的就是节点会有类型区分，我们按照颜色将节点分为红色和黑色&lt;/span&gt;&lt;br style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;&lt;br style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;&lt;div style=&quot;font-size: 12px ; font-weight: 400 ; text-align: left&quot;&gt;红黑树特性：&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="414" y="2433" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3T7w2ROA5HUskxFpoRaZ-86" value="&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;①、每个节点要么红色要么黑色&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;②、根节点是黑色的&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;③、叶子节点是黑色的&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;④、红色节点的子节点一定是黑色的&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;⑤、&lt;font color=&quot;#ff3333&quot; style=&quot;font-size: 14px&quot;&gt;从一个节点出发，经历相同的高度时路径上一定具有相同的黑色节点&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="142" y="2520" width="462" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3T7w2ROA5HUskxFpoRaZ-87" value="红黑树主要用来存储有序数据，这本身也是二叉树的特性。但是红黑树可以达到O(logN)的curd的效率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="73" y="2640" width="547" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
