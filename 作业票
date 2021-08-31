@@ -1,0 +1,110 @@
+<mxfile host="app.diagrams.net" modified="2021-08-06T03:17:07.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="1Kemmip0N9HPG8PrD15B" version="14.9.3" type="github">
+  <diagram id="V0F8dkTBVkp0pnGQ3mMU" name="Page-1">
+    <mxGraphModel dx="2500" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BVcPQLmi1ADcFn_R98Ym-5" value="sm转换" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BVcPQLmi1ADcFn_R98Ym-1" target="BVcPQLmi1ADcFn_R98Ym-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BVcPQLmi1ADcFn_R98Ym-1" value="xml" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BVcPQLmi1ADcFn_R98Ym-2" value="ftl" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BVcPQLmi1ADcFn_R98Ym-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BVcPQLmi1ADcFn_R98Ym-3" target="BVcPQLmi1ADcFn_R98Ym-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BVcPQLmi1ADcFn_R98Ym-3" value="产品编写" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BVcPQLmi1ADcFn_R98Ym-7" value="读取" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BVcPQLmi1ADcFn_R98Ym-6" target="BVcPQLmi1ADcFn_R98Ym-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BVcPQLmi1ADcFn_R98Ym-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BVcPQLmi1ADcFn_R98Ym-6" target="BVcPQLmi1ADcFn_R98Ym-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BVcPQLmi1ADcFn_R98Ym-10" value="输出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="BVcPQLmi1ADcFn_R98Ym-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0259" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVcPQLmi1ADcFn_R98Ym-6" value="freemark" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BVcPQLmi1ADcFn_R98Ym-8" value="word" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-1" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;flowableGroupResultMap&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="660" width="450" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-2" value="流程定义分组按照id分组的map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="670" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pUffZv0EF7lw0B9CodYp-3" target="pUffZv0EF7lw0B9CodYp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-3" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;ac_de_model查找表单类型数据&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-36" y="660" width="450" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pUffZv0EF7lw0B9CodYp-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="189" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-4" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;获取表单类型model_key&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-36" y="920" width="450" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-6" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;formKeys&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="169" y="1060" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pUffZv0EF7lw0B9CodYp-7" target="pUffZv0EF7lw0B9CodYp-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pUffZv0EF7lw0B9CodYp-7" target="pUffZv0EF7lw0B9CodYp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-7" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;span style=&quot;background-color: #364135&quot;&gt;act_procdef_form中根据formKeys获取流程定义&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;span style=&quot;background-color: #364135&quot;&gt;与formKey关联信息&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-36" y="1200" width="450" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-9" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;span style=&quot;color: #b389c5&quot;&gt;获取procdefForm，key是formKey , value是procdefKey&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-36" y="1480" width="450" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-10" value="&lt;pre style=&quot;color: rgb(169 , 183 , 198) ; font-size: 13.5pt ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;color: rgb(179 , 137 , 197)&quot;&gt;procdefForm&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="169" y="1490" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-12" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;procdefFormResultResult&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="169" y="1210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pUffZv0EF7lw0B9CodYp-13" target="pUffZv0EF7lw0B9CodYp-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-13" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;font color=&quot;#b389c5&quot;&gt;从流程表单关联表中信息获取流程定义id集合&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1200" width="450" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-15" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;procdefKey&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pUffZv0EF7lw0B9CodYp-16" target="pUffZv0EF7lw0B9CodYp-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-16" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;font color=&quot;#b389c5&quot;&gt;通过procdefKey获取BPMN类型的表单数据&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1200" width="450" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-18" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;moduleResultProcdef&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="1210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-19" value="&lt;pre style=&quot;background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;font color=&quot;#b389c5&quot;&gt;基于moduleResultProdef封装表单key对应的状态&lt;/font&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1200" width="450" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-21" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;&lt;span style=&quot;color: #b389c5&quot;&gt;procdefFormStatus&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1885" y="1210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pUffZv0EF7lw0B9CodYp-22" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 13.5pt&quot;&gt;moduleResult&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="169" y="930" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
