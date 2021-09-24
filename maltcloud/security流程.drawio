@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T07:53:57.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="HCrml8niL7_L4IlMywo0" version="15.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T01:13:56.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="kIYk6Gtni0BZwlFocy5T" version="15.2.2" type="github">
   <diagram id="2QAxnkbhf2JN3NQYo5zO" name="Page-1">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,6 +99,26 @@
             </Array>
             <mxPoint x="10" y="1250" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4QHC4_HjXMX8FYTvqgUU-33" value="WebSecurityConfigurerAdapter" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1870" width="40" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="4QHC4_HjXMX8FYTvqgUU-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4QHC4_HjXMX8FYTvqgUU-33">
+          <mxGeometry x="15" y="190" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4QHC4_HjXMX8FYTvqgUU-40" value="init" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="4QHC4_HjXMX8FYTvqgUU-39" parent="4QHC4_HjXMX8FYTvqgUU-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="45" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QHC4_HjXMX8FYTvqgUU-35" value="WebSecurityConfigurer" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1870" width="40" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="4QHC4_HjXMX8FYTvqgUU-37" value="SecurityConfigurer" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="394" y="1870" width="40" height="580" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
