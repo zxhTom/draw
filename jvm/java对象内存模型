@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T06:51:45.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="4YAOtZN38lumBnd7vf3x" version="15.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-09T03:56:59.562Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="yHxBAA4IBblV75nVhG5-" version="15.3.4" type="github">
   <diagram id="xcYaVchqXG8pSBiWo1x4" name="Page-1">
-    <mxGraphModel dx="1422" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1050,6 +1050,42 @@
         </mxCell>
         <mxCell id="Orl4e857vjETv8xLKzsa-399" value="25b" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="780" width="80" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Orl4e857vjETv8xLKzsa-400" value="Modify" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1300" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Orl4e857vjETv8xLKzsa-401" value="Exclusive" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1300" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Orl4e857vjETv8xLKzsa-402" value="Shared" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1500" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Orl4e857vjETv8xLKzsa-403" value="Invalid" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1500" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Orl4e857vjETv8xLKzsa-404" value="E" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Orl4e857vjETv8xLKzsa-405" value="X" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Orl4e857vjETv8xLKzsa-407" value="I" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Orl4e857vjETv8xLKzsa-408" value="S" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Orl4e857vjETv8xLKzsa-409" value="修改数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="1280" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Orl4e857vjETv8xLKzsa-410" value="独占数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="1280" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Orl4e857vjETv8xLKzsa-411" value="数据失效" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="1480" width="55" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Orl4e857vjETv8xLKzsa-412" value="共享数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="1480" width="55" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
