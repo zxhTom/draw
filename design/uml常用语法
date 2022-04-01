@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T02:01:20.298Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="P2gAmJXDKWRom4Or_ZTh" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-01T02:02:26.034Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="nl1RNaQe492RKm3Ps4M3" version="17.1.0" type="github">
   <diagram id="m9ogU5axuJd-58lJkL_J" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
         <mxCell id="c78XzqCyfirVSJhjfFvO-12" value="聚合关系" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="30" y="38" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c78XzqCyfirVSJhjfFvO-13" value="&lt;ol&gt;&lt;li&gt;&lt;b&gt;State聚合到Context&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;常用于实体对象关系，Context（整体）由部分构成&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;两者不是强依赖&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;align=center;" vertex="1" parent="1">
+        <mxCell id="c78XzqCyfirVSJhjfFvO-13" value="&lt;ol&gt;&lt;li&gt;&lt;b&gt;State聚合到Context&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;常用于实体对象关系，Context（整体）由部分构成&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;两者不是强依赖&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;箭头不是必要元素&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;align=center;" vertex="1" parent="1">
           <mxGeometry x="30" y="210" width="650" height="110" as="geometry" />
         </mxCell>
         <mxCell id="c78XzqCyfirVSJhjfFvO-14" value="&lt;font&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;public class Context {&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp; private State state;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp; ...&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;public abstract class State {&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp; public abstract void Handle(Context context);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;}&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
