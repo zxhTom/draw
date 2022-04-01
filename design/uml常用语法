@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-01T01:25:39.125Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="PO3IQtZHPURvmJFayKgb" version="17.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-01T01:36:36.625Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="iYQKu29FF6xwMZxHVQae" version="17.1.0" type="github">
   <diagram id="m9ogU5axuJd-58lJkL_J" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,6 +49,52 @@
         </mxCell>
         <mxCell id="c78XzqCyfirVSJhjfFvO-14" value="&lt;font&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;public class Context {&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp; private State state;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp; ...&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;public abstract class State {&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp; public abstract void Handle(Context context);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;}&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="38" width="280" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="450" width="650" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-16" value="Car" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="522" width="160" height="86" as="geometry">
+            <mxRectangle x="100" y="110" width="80" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-17" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c78XzqCyfirVSJhjfFvO-16">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="c78XzqCyfirVSJhjfFvO-16">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-19" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c78XzqCyfirVSJhjfFvO-16">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-20" value="Bicycle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="420" y="522" width="160" height="86" as="geometry">
+            <mxRectangle x="100" y="110" width="80" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-21" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c78XzqCyfirVSJhjfFvO-20">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="c78XzqCyfirVSJhjfFvO-20">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-23" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c78XzqCyfirVSJhjfFvO-20">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-25" value="实现关系" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="30" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-26" value="&lt;ol&gt;&lt;li&gt;&lt;b&gt;State聚合到Context&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;常用于实体对象关系，Context（整体）由部分构成&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;两者不是强依赖&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;align=center;" vertex="1" parent="1">
+          <mxGeometry x="30" y="622" width="650" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-27" value="&lt;font&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;public class Context {&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp; private State state;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp; ...&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;}&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;public abstract class State {&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&amp;nbsp; &amp;nbsp; public abstract void Handle(Context context);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;}&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="450" width="280" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="c78XzqCyfirVSJhjfFvO-28" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="570" as="sourcePoint" />
+            <mxPoint x="260" y="570" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
