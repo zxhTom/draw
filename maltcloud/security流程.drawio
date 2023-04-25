@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T07:16:09.111Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="DR6vnBIJf3n2FeN99GT2" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-25T07:18:29.726Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="pCbUCBeiX_wQ7lqysVCq" version="21.2.1" type="github">
   <diagram id="2QAxnkbhf2JN3NQYo5zO" name="Page-1">
     <mxGraphModel dx="2089" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -352,6 +352,27 @@
         </mxCell>
         <mxCell id="m3yvCEcCqd-XtSE1qIoY-4" value="Token" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;" vertex="1" parent="1">
           <mxGeometry x="-110" y="5040" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m3yvCEcCqd-XtSE1qIoY-5" value="USER" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="5620" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m3yvCEcCqd-XtSE1qIoY-6" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="5640" width="910" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m3yvCEcCqd-XtSE1qIoY-7" value="输入信息" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="5620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m3yvCEcCqd-XtSE1qIoY-8" value="获取角色" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="5620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m3yvCEcCqd-XtSE1qIoY-9" value="赋予权限" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="5620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m3yvCEcCqd-XtSE1qIoY-10" value="扩展额外信息" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="100" y="5620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m3yvCEcCqd-XtSE1qIoY-11" value="保存COOKIE" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="280" y="5620" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
