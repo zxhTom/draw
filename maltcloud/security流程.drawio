@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T07:15:32.382Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="IKJJP7lYqSMZyt5CyK77" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-25T07:16:09.111Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="DR6vnBIJf3n2FeN99GT2" version="21.2.1" type="github">
   <diagram id="2QAxnkbhf2JN3NQYo5zO" name="Page-1">
     <mxGraphModel dx="2089" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -338,10 +338,10 @@
         <mxCell id="WfySFtOXm27eFh4Pmqys-12" value="后续和认证服务交互只需要access_token和refresh_token即可。完成应用服务的鉴权功能" style="text;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-180" y="4480" width="545" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="m3yvCEcCqd-XtSE1qIoY-1" value="A" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="m3yvCEcCqd-XtSE1qIoY-1" value="yapai" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-473" y="4890" width="223" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="m3yvCEcCqd-XtSE1qIoY-2" value="B" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="m3yvCEcCqd-XtSE1qIoY-2" value="wechat" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="147" y="4890" width="223" height="410" as="geometry" />
         </mxCell>
         <mxCell id="m3yvCEcCqd-XtSE1qIoY-3" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;entryX=0.004;entryY=0.459;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="m3yvCEcCqd-XtSE1qIoY-2">
@@ -349,6 +349,9 @@
             <mxPoint x="-260" y="5080" as="sourcePoint" />
             <mxPoint x="-110" y="4920" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="m3yvCEcCqd-XtSE1qIoY-4" value="Token" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="5040" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
